@@ -1,6 +1,18 @@
 [
     {
         "type": "movie",
+        "title": "Saw X",
+        "imdb_id": "tt21807222",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21807222"
+    },
+    {
+        "type": "movie",
+        "title": "The Nun II",
+        "imdb_id": "tt10160976",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt10160976"
+    },
+    {
+        "type": "movie",
         "title": "Grand Turismo",
         "imdb_id": "tt4495098",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt4495098"
