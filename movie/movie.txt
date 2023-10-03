@@ -1,6 +1,30 @@
 [
     {
         "type": "movie",
+        "title": "Grand Turismo",
+        "imdb_id": "tt4495098",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt4495098"
+    },
+    {
+        "type": "movie",
+        "title": "Blue Beetle",
+        "imdb_id": "tt9362930",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9362930"
+    },
+    {
+        "type": "movie",
+        "title": "The Expend4bles",
+        "imdb_id": "tt3291150",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt3291150"
+    },
+    {
+        "type": "movie",
+        "title": "A Million Miles Away",
+        "imdb_id": "tt21940010",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21940010"
+    },
+    {
+        "type": "movie",
         "title": "The Equalizer 3",
         "imdb_id": "tt17024450",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt17024450"
