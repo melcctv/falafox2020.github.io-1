@@ -1,6 +1,18 @@
 [
     {
         "type": "movie",
+        "title": "The Equalizer 3",
+        "imdb_id": "tt17024450",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt17024450"
+    },
+    {
+        "type": "movie",
+        "title": "Mission Impossible: Dead Reckoning",
+        "imdb_id": "tt9603212",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9603212"
+    },
+    {
+        "type": "movie",
         "title": "Fast X (2023)",
         "imdb_id": "385687",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/385687"
