@@ -1,3 +1,9 @@
 [
-{}
+    {
+        "type": "series",
+        "title": "Strong Girl Nan-Soon",
+        "imdb_id": "203164",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/tv\\/203164"
+    }
+
 ]
