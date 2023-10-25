@@ -1,7 +1,14 @@
 [
     {
         "type": "movie",
-        "title": "A New Breed of Criminal (2023)",
+        "title": "The Royal Hotel",
+        "imdb_id": "944952",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944952",
+        "release": "new"
+    },
+    {
+        "type": "movie",
+        "title": "A New Breed of Criminal",
         "imdb_id": "tt21600628",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21600628",
         "tmdb_id": "1176503",
