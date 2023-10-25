@@ -3,13 +3,15 @@
         "type": "movie",
         "title": "The Exorcist: Believer",
         "imdb_id": "807172",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172",
+        "release": "new"
     },
     {
         "type": "movie",
         "title": "Killers of the Flower Moon",
         "imdb_id": "466420",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/466420"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/466420",
+        "release": "new"
     },
     {
         "type": "movie",
