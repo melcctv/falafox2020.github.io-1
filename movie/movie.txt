@@ -1,6 +1,18 @@
 [
     {
         "type": "movie",
+        "title": "The Exorcist: Believer",
+        "imdb_id": "807172",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172"
+    },
+    {
+        "type": "movie",
+        "title": "Killers of the Flower Moon",
+        "imdb_id": "466420",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/466420"
+    },
+    {
+        "type": "movie",
         "title": "The Retirement Plan",
         "imdb_id": "866346",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866346"
