@@ -1,6 +1,15 @@
 [
     {
         "type": "movie",
+        "title": "A New Breed of Criminal (2023)",
+        "imdb_id": "tt21600628",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21600628",
+        "tmdb_id": "1176503",
+        "embed_url_tmdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1176503",
+        "release": "new"
+    },
+    {
+        "type": "movie",
         "title": "The Exorcist: Believer",
         "imdb_id": "807172",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172",
