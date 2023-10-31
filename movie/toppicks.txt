@@ -1,7 +1,7 @@
 [
     {
         "title":"angel has fallen",
-        "link":"http://dogjdw.ipdisk.co.kr/public/VOL1/public/temp/00.Movie/Angel.Has.Fallen.2019.1080p.WEB-DL.H264.AC3-EVO%5bTGx%5d/Angel.Has.Fallen.2019.1080p.WEB-DL.H264.AC3-EVO.mkv"
+        "link":"http://195.154.166.82/AFLAM/E/Angels.Fallen.mkv"
     },
     {
         "title":"Alladin",
@@ -18,5 +18,9 @@
     {
         "title":"Black panther Wakanda forever",
         "link":"http://195.154.166.82/AFLAM/E/Black.Panther.Wakanda.Forever.mp4"
+    },
+    {
+        "title":"Black adam",
+        "link":"http://195.154.166.82/AFLAM/E/Black.Adam.2022.mp4"
     }
 ]
