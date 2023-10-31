@@ -11,8 +11,12 @@
         "title":"Armageddon",
         "link":"http://195.154.166.82/AFLAM/E/Armageddon.mkv"
     },
-        {
-        "title":"The adam project",
-        "link":"http://103.87.212.46/Data/Movies/Hollywood/2022/The%20Adam%20Project%20%282022%29/The.Adam.Project.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4"
+    {
+        "title":"Black panther",
+        "link":"http://195.154.166.82/AFLAM/E/BlackPanther.mkv"
+    },
+    {
+        "title":"Black panther Wakanda forever",
+        "link":"http://195.154.166.82/AFLAM/E/Black.Panther.Wakanda.Forever.mp4"
     }
 ]
