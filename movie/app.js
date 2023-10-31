@@ -1,1 +1,51 @@
-function _0xa9ca(){const _0x5af960=['type','889622bNMaNw','className','title','appendChild','3060UewktV','source','link','createElement','https://raw.githubusercontent.com/falafox2020/falafox2020.github.io/main/movie/toppicks.txt','8VRgqvS','click','1609944YHoZtS','addEventListener','3017OvPkmK','catch','getElementById','movieList','Error:','349710CSbMir','1Jdrbbr','13240iygdgh','24034769QlRLMq','innerHTML','1942905FBCUng','controls','button','video','textContent','error','setAttribute','Error:\x20No\x20movies\x20found','23300xxZEYJ','onload'];_0xa9ca=function(){return _0x5af960;};return _0xa9ca();}const _0x8ddc1a=_0x2b14;function _0x2b14(_0x4e1357,_0x596bc5){const _0xa9cadc=_0xa9ca();return _0x2b14=function(_0x2b14aa,_0x90f74f){_0x2b14aa=_0x2b14aa-0x158;let _0x4d2d4a=_0xa9cadc[_0x2b14aa];return _0x4d2d4a;},_0x2b14(_0x4e1357,_0x596bc5);}(function(_0x53203e,_0x3ef67d){const _0x26e4b1=_0x2b14,_0x1e0d79=_0x53203e();while(!![]){try{const _0x17299b=-parseInt(_0x26e4b1(0x160))/0x1*(parseInt(_0x26e4b1(0x16f))/0x2)+-parseInt(_0x26e4b1(0x158))/0x3+-parseInt(_0x26e4b1(0x178))/0x4*(-parseInt(_0x26e4b1(0x164))/0x5)+-parseInt(_0x26e4b1(0x15f))/0x6+-parseInt(_0x26e4b1(0x15a))/0x7*(parseInt(_0x26e4b1(0x161))/0x8)+-parseInt(_0x26e4b1(0x173))/0x9*(parseInt(_0x26e4b1(0x16c))/0xa)+parseInt(_0x26e4b1(0x162))/0xb;if(_0x17299b===_0x3ef67d)break;else _0x1e0d79['push'](_0x1e0d79['shift']());}catch(_0x28bda9){_0x1e0d79['push'](_0x1e0d79['shift']());}}}(_0xa9ca,0x65c7c),window[_0x8ddc1a(0x16d)]=function(){const _0x37cf35=_0x8ddc1a,_0x41b30c=document[_0x37cf35(0x15c)](_0x37cf35(0x15d)),_0x421e1b=document['getElementById']('moviePlayer');_0x46730a()['then'](_0x323d31=>{const _0x6b5e1e=_0x37cf35;_0x323d31&&_0x323d31['length']>0x0?_0x5379f8(_0x323d31):console['error'](_0x6b5e1e(0x16b));})[_0x37cf35(0x15b)](_0x2e01cc=>console[_0x37cf35(0x169)](_0x37cf35(0x15e),_0x2e01cc));async function _0x46730a(){const _0x16d7a5=_0x37cf35,_0x5cf442=await fetch(_0x16d7a5(0x177)),_0x2a9700=await _0x5cf442['json']();return _0x2a9700||[];}function _0x5379f8(_0x49ed57){_0x49ed57['forEach'](_0x3b0715=>{const _0x252292=_0x2b14,_0x513aaa=_0x33e8b2(_0x3b0715[_0x252292(0x171)]);_0x513aaa[_0x252292(0x159)](_0x252292(0x179),()=>{const _0x332004=_0x252292;_0x2389e4(_0x3b0715[_0x332004(0x175)]);}),_0x41b30c[_0x252292(0x172)](_0x513aaa);});}function _0x33e8b2(_0x5ec236){const _0x23fe48=_0x37cf35,_0x42e26f=document[_0x23fe48(0x176)](_0x23fe48(0x166));return _0x42e26f[_0x23fe48(0x168)]=_0x5ec236,_0x42e26f[_0x23fe48(0x170)]='movie-btn',_0x42e26f;}function _0x2389e4(_0x3c0380){const _0x561d9d=_0x37cf35,_0x17a9ac=document[_0x561d9d(0x176)](_0x561d9d(0x167));_0x17a9ac[_0x561d9d(0x16a)](_0x561d9d(0x165),_0x561d9d(0x165)),_0x17a9ac['setAttribute']('autoplay','true');const _0xf80607=document[_0x561d9d(0x176)](_0x561d9d(0x174));_0xf80607['src']=_0x3c0380,_0xf80607[_0x561d9d(0x16e)]='video/mp4',_0x421e1b[_0x561d9d(0x163)]='',_0x17a9ac['appendChild'](_0xf80607),_0x421e1b[_0x561d9d(0x172)](_0x17a9ac);}});
+// JavaScript
+window.onload = function() {
+  const movieListDiv = document.getElementById('movieList');
+  const moviePlayerDiv = document.getElementById('moviePlayer');
+
+  // Fetch the list of latest movies
+  fetchLatestMovies()
+    .then(movies => {
+      if (movies && movies.length > 0) {
+        displayMovieList(movies);
+      } else {
+        console.error('Error: No movies found');
+      }
+    })
+    .catch(error => console.error('Error:', error));
+
+  async function fetchLatestMovies() {
+    const response = await fetch('https://raw.githubusercontent.com/falafox2020/falafox2020.github.io/main/movie/toppicks.txt');
+    const data = await response.json();
+    return data || [];
+  }
+
+  function displayMovieList(movies) {
+    movies.forEach(movie => {
+      const movieButton = createMovieButton(movie.title);
+      movieButton.addEventListener('click', () => {
+        streamMovie(movie.link);
+      });
+      movieListDiv.appendChild(movieButton);
+    });
+  }
+
+  function createMovieButton(title) {
+    const movieButton = document.createElement('button');
+    movieButton.textContent = title;
+	movieButton.className = 'movie-btn';
+    return movieButton;
+  }
+
+  function streamMovie(imdb) {
+	const videoFrame = document.createElement('video');
+	videoFrame.setAttribute("controls","controls");
+	videoFrame.setAttribute("autoplay","true");
+	const videoSource = document.createElement('source');
+	videoSource.src = imdb;
+	videoSource.type = 'video/mp4';
+    moviePlayerDiv.innerHTML = '';
+	videoFrame.appendChild(videoSource);
+	moviePlayerDiv.appendChild(videoFrame);
+  }
+};
