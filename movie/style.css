@@ -33,6 +33,12 @@ body {
     text-align: start;
     border: none;
     cursor: pointer;
+	text-transform: capitalize
+}
+
+video {
+	width: 100%;
+	height: 100%
 }
 
 #moviePlayer {
@@ -54,6 +60,7 @@ iframe {
     padding: 10px;
     text-transform: capitalize;
 }
+
 
 @media screen and (max-width: 600px) {
     .col, .col-sm, .col-lg {
