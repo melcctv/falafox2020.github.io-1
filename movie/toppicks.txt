@@ -22,5 +22,9 @@
     {
         "title":"Black adam",
         "link":"http://195.154.166.82/AFLAM/E/Black.Adam.2022.mp4"
+    },
+    {
+        "title":"Bloodshot",
+        "link":"http://91.103.249.60:88/vclub/Bloodshot/Bloodshot.2020.avi"
     }
 ]
