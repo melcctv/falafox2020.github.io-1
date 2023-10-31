@@ -15,7 +15,7 @@ window.onload = function() {
     .catch(error => console.error('Error:', error));
 
   async function fetchLatestMovies() {
-    const response = await fetch('https://raw.githubusercontent.com/falafox2020/falafox2020.github.io/main/movie/toppicks.txt');
+    const response = await fetch('toppicks.txt');
     const data = await response.json();
     return data || [];
   }
