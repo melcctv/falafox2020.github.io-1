@@ -1,10 +1,44 @@
 [
     {
         "type": "movie",
+        "title": "Meg 2: The Trench",
+        "imdb_id": "615656",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/615656",
+        "release": "new"
+    },
+    {
+        "type": "movie",
+        "title": "Sniper: G.R.I.T. - Global Response & Intelligence Team",
+        "imdb_id": "1171541",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1171541",
+        "release": "new"
+    },
+    {
+        "type": "movie",
+        "title": "The Last Voyage of the Demeter",
+        "imdb_id": "635910",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/635910",
+        "release": "new"
+    },
+    {
+        "type": "movie",
+        "title": "Malibu Horror Story",
+        "imdb_id": "420637",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/420637",
+        "release": "new"
+    },
+    {
+        "type": "movie",
+        "title": "No Hard Feelings",
+        "imdb_id": "tt15671028",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt15671028",
+        "release": "new"
+    },
+    {
+        "type": "movie",
         "title": "The Royal Hotel",
         "imdb_id": "944952",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944952",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944952"
     },
     {
         "type": "movie",
@@ -12,22 +46,19 @@
         "imdb_id": "tt21600628",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21600628",
         "tmdb_id": "1176503",
-        "embed_url_tmdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1176503",
-        "release": "new"
+        "embed_url_tmdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1176503"
     },
     {
         "type": "movie",
         "title": "The Exorcist: Believer",
         "imdb_id": "807172",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/807172"
     },
     {
         "type": "movie",
         "title": "Killers of the Flower Moon",
         "imdb_id": "466420",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/466420",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/466420"
     },
     {
         "type": "movie",
