@@ -8,7 +8,7 @@
     },
     {
         "type": "movie",
-        "title": "Sniper: G.R.I.T. - Global Response & Intelligence Team",
+        "title": "Sniper: G.R.I.T",
         "imdb_id": "1171541",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1171541",
         "release": "new"
