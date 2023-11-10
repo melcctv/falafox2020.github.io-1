@@ -1,6 +1,13 @@
 [
     {
         "type": "movie",
+        "title": "Resident Evil: Death Island",
+        "imdb_id": "1083862",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1083862",
+        "release": "new"
+    },
+    {
+        "type": "movie",
         "title": "Leo",
         "imdb_id": "949229",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/949229",
