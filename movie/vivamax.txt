@@ -1,0 +1,16 @@
+[
+   {
+        "type": "movie",
+        "title": "Salakab",
+        "imdb_id": "vgGA5",
+        "embed_url_imdb": "https:\\/\\/vivamax.asia\\/embed\\/vgGA5",
+        "release": "new"
+    },
+     {
+        "type": "movie",
+        "title": "Ganti-Ganti",
+        "imdb_id": "76PPy",
+        "embed_url_imdb": "https:\\/\\/vivamax.asia\\/embed\\/76PPy",
+        "release": "new"
+    }
+]
