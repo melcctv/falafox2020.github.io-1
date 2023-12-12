@@ -2,7 +2,7 @@
   {
         "type": "movie",
         "title": "Tha Marvels",
-        "imdb_id": "tt13287846",
+        "imdb_id": "609681",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/609681",
         "release": "new"
     },
