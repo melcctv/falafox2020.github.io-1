@@ -1,6 +1,34 @@
 [
   {
         "type": "movie",
+        "title": "The Beekeeper",
+        "imdb_id": "866398",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866398",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Ferrari",
+        "imdb_id": "365620",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/365620",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Wonka",
+        "imdb_id": "787699",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/787699",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Wish",
+        "imdb_id": "1022796",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1022796",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "The Bricklayer",
         "imdb_id": "927107",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/927107",
