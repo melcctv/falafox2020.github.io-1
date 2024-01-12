@@ -4,7 +4,9 @@
         "title": "The Beekeeper",
         "imdb_id": "866398",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866398",
-        "release": "new"
+        "cover":"https://pics.filmaffinity.com/the_beekeeper-593721159-large.jpg",
+        "release": "new",
+
     },
   {
         "type": "movie",
