@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Card</title>
+
+    <style>
+        #loyaltyCard {
+            width: 300px;
+            height: 150px;
+            background-image: linear-gradient(190deg, #31203e, #111);
+            border-radius: 20px;
+            padding: 20px;
+            color: #ccc;
+            font-family: arial;
+        }
+
+        #vendorLoyaltyCard,
+        #loyalCustomerName,
+        #loyalCustomerPoints {
+            display: block;
+            width: 100%;
+        }
+
+        #vendorLoyaltyCard {
+            text-align: end;
+            text-transform: uppercase;
+            font-size: small;
+            letter-spacing: 1px;
+            color: #b066aa;
+        }
+
+        #loyalCustomerName {
+            margin-top: 30px;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        #loyalCustomerPoints {
+            margin-top: 30px;
+        }
+
+        #points {
+            font-size: x-large;
+            font-weight: 700;
+        }
+
+        #loyalCustomerModal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #unique_id-input input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            font-size: large;
+        }
+
+        #unique_id-input button {
+            width: 100px;
+            padding: 8px;
+            border: none;
+            border-radius: 6px;
+            font-size: large;
+            margin-top: 15px;
+            background-color: #b066aa;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 425px) {
+            #loyaltyCard {
+                width: 250px;
+                height: 120px;
+                border-radius: 10px;
+            }
+
+            #loyalCustomerName {
+                margin-top: 30px;
+                font-size: 15px;
+                font-family: 'Courier New', Courier, monospace;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loyaltyCard">
+        <div id="vendorLoyaltyCard">JuanFi Loyalty Card</div>
+        <div id="loyalCustomerName"></div>
+        <div id="loyalCustomerPoints"></div>
+    </div>
+
+
+
+    <div id="loyalCustomerModal">
+        <div id="unique_id-input">
+            <input type="text" id="loyalCustomer-input" placeholder="Enter ID">
+            <button type="button" onclick="registerCustomer();">Submit</button>
+        </div>
+    </div>
+    <script>
+        //var loyalCustomerId = localStorage.getItem('loyalCustomerId');
+        var loyalCustomerId = "demo";
+        function getData() {
+
+            if (loyalCustomerId != null) {
+
+                const baseUrl = "https://script.google.com/macros/s/AKfycbwvepqCPDPYUcldT54EOkFldH8zbPmWk7UCdlfjs5m0USQ5BagBMzI_10rTLf7Ir0munw/exec";  // Please set your Web Apps URL.
+                const para = {
+                    spreadsheetId: "17Dqm_BYfuvj4Xa-N12KHfd7cB6-UI3WkVWxv6TxN_Qg",  // Please set your Google Spreadsheet ID.
+                    sheetName: "Sheet1"  // Please set the sheet name you want to retrieve the values.
+                };
+                const q = new URLSearchParams(para);
+                const url = baseUrl + "?" + q;
+                fetch(url)
+                    .then(res => res.json())
+                    .then(res => {
+                        const values = res.values;
+                        console.log(values);
+                        console.log(loyalCustomerId);
+                        values.forEach(element => {
+                            if (loyalCustomerId == element[0]) {
+                                document.getElementById('loyalCustomerName').innerText = element[1];
+                                document.getElementById('loyalCustomerPoints').innerHTML = '<span id="points">' + element[2] + '</span> pts';
+                            }
+                        });
+
+                    });
+
+            } else {
+                document.getElementById('loyalCustomerName').innerText = 'Not registered';
+                document.getElementById('loyalCustomerPoints').innerHTML = '<span id="points">0</span> pts';
+            }
+
+        }
+
+
+        function updatePoints() {
+
+            if (loyalCustomerId != null) {
+                var unique_id = '43f1669c-1623-4eb2-af09-a8c30ba7e38c';
+                var name = 'Kristoffer Samole';
+                var points = '555';
+                var email_id = 'samole15@skid.pro';
+                var xhttp = new XMLHttpRequest();
+                xhttp.onload = function () { };
+                xhttp.open('POST', 'https://script.google.com/macros/s/AKfycbwvepqCPDPYUcldT54EOkFldH8zbPmWk7UCdlfjs5m0USQ5BagBMzI_10rTLf7Ir0munw/exec?record_id=' + unique_id + '&name=' + name + '&points=' + points + '&email_id=' + email_id + '', true);
+                xhttp.send();
+            } else {
+                console.log('Loyalty points not registered')
+            }
+
+        }
+
+        var loyalCustomerInput = document.getElementById('loyalCustomer-input');
+        function registerCustomer() {
+            if (localStorage.getItem('loyalCustomerId') == null && loyalCustomerInput.value != "") {
+                localStorage.setItem('loyalCustomerId', loyalCustomerInput.value);
+                setTimeout(function () { location.reload(); }, 1000);
+            }
+        }
+        getData();
+        updatePoints();
+    </script>
+</body>
+
+
+</html>
