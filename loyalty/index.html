@@ -172,8 +172,19 @@
                 setTimeout(function () { location.reload(); }, 1000);
             }
         }
-        getData();
-        updatePoints();
+        //getData();
+        //updatePoints();
+
+            function getCustomerData() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                let data = JSON.parse(this.responseText);
+                console.log(data);
+            };
+            xhttp.open('GET', 'https://script.google.com/macros/s/AKfycbwvepqCPDPYUcldT54EOkFldH8zbPmWk7UCdlfjs5m0USQ5BagBMzI_10rTLf7Ir0munw/exec', true);
+            xhttp.send();
+        }
+        getCustomerData();
     </script>
 </body>
 
