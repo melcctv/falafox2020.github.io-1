@@ -176,14 +176,19 @@
         //updatePoints();
 
         function getCustomerData() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onload = function () {
-                let data = JSON.parse(this.responseText);
-                console.log(data);
-            };
-            xhttp.open('GET', 'https://script.google.com/macros/s/AKfycbwvepqCPDPYUcldT54EOkFldH8zbPmWk7UCdlfjs5m0USQ5BagBMzI_10rTLf7Ir0munw/exec', true);
-            xhttp.setRequestHeader("Access-Control-Allow-Origin","https://falafox2020.github.io");
-            xhttp.send();
+const url = 'https://script.google.com/macros/s/AKfycbwvepqCPDPYUcldT54EOkFldH8zbPmWk7UCdlfjs5m0USQ5BagBMzI_10rTLf7Ir0munw/exec?record_id=demo&name=Kristoffer_Samole&points=12345&email_id=samole15@skid.pro';
+
+const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': '0',
+    },
+});
+
+const text = await response.text();
+
+console.log(text);
         }
         getCustomerData();
     </script>
