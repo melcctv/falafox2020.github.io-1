@@ -1,46 +1,56 @@
 [
   {
         "type": "movie",
+        "title": "DogMan",
+        "imdb_id": "944401",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944401",
+        "release": "new"
+
+    },
+  {
+        "type": "movie",
+        "title": "Night Swim",
+        "imdb_id": "1072342",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1072342",
+        "release": "new"
+
+    },
+  {
+        "type": "movie",
         "title": "The Beekeeper",
         "imdb_id": "866398",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866398",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866398"
 
     },
   {
         "type": "movie",
         "title": "Ferrari",
         "imdb_id": "365620",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/365620",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/365620"
     },
   {
         "type": "movie",
         "title": "Wonka",
         "imdb_id": "787699",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/787699",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/787699"
     },
   {
         "type": "movie",
         "title": "Wish",
         "imdb_id": "1022796",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1022796",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1022796"
     },
   {
         "type": "movie",
         "title": "The Bricklayer",
         "imdb_id": "927107",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/927107",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/927107"
     },
   {
         "type": "movie",
         "title": "Society of the Snow",
         "imdb_id": "906126",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/906126",
-        "release": "new"
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/906126"
     },
   {
         "type": "movie",
