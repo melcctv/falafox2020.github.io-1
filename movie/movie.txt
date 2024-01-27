@@ -1,6 +1,34 @@
 [
   {
         "type": "movie",
+        "title": "Black Adam",
+        "imdb_id": "tt6443346",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt6443346",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "imdb_id": "tt9376612",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9376612",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Eternals",
+        "imdb_id": "tt9032400",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9032400",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Black Panther: Wakanda Forever",
+        "imdb_id": "tt9114286",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9114286",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "Shazam!",
         "imdb_id": "tt0448115",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0448115",
