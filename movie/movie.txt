@@ -1,26 +1,49 @@
 [
   {
         "type": "movie",
+        "title": "Shazam!",
+        "imdb_id": "tt0448115",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0448115",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Shazam! Fury of the Gods",
+        "imdb_id": "tt10151854",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt10151854",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "The Hows of Us",
+        "imdb_id": "tt8769032",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt8769032",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "imdb_id": "tt9419884",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt9419884",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "DogMan",
         "imdb_id": "944401",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944401",
-        "release": "new"
-
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/944401"
     },
   {
         "type": "movie",
         "title": "Night Swim",
         "imdb_id": "1072342",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1072342",
-        "release": "new"
-
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/1072342"
     },
   {
         "type": "movie",
         "title": "The Beekeeper",
         "imdb_id": "866398",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/866398"
-
     },
   {
         "type": "movie",
