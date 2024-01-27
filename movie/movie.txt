@@ -1,6 +1,34 @@
 [
   {
         "type": "movie",
+        "title": "Parasite",
+        "imdb_id": "tt6751668",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt6751668",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "The Boy and the Heron",
+        "imdb_id": "tt6587046",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt6587046",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Venom",
+        "imdb_id": "tt1270797",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1270797",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Avatar: The Way of Water",
+        "imdb_id": "tt1630029",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1630029",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "Black Adam",
         "imdb_id": "tt6443346",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt6443346",
