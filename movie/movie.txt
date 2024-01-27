@@ -1,9 +1,72 @@
 [
   {
         "type": "movie",
+        "title": "Slumdog Millionaire",
+        "imdb_id": "tt1010048",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1010048",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Hachi: A Dog's Tale",
+        "imdb_id": "tt1028532",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1028532",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Ratatouille",
+        "imdb_id": "tt0382932",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0382932",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "How to Train Your Dragon",
+        "imdb_id": "tt0892769",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0892769",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Hacksaw Ridge",
+        "imdb_id": "tt2119532",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt2119532",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Million Dollar Baby",
+        "imdb_id": "tt0405159",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0405159",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Godzilla Minus One",
+        "imdb_id": "tt23289160",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt23289160",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "The Truman Show",
+        "imdb_id": "tt0120382",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0120382",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "Up",
         "imdb_id": "tt1049413",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1049413",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Dangal",
+        "imdb_id": "tt5074352",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt5074352",
         "release": "new"
     },
   {
