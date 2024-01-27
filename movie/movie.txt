@@ -1,6 +1,27 @@
 [
   {
         "type": "movie",
+        "title": "The Wandering Earth II",
+        "imdb_id": "tt13539646",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt13539646",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Monster",
+        "imdb_id": "tt23736044",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt23736044",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Elemental",
+        "imdb_id": "tt15789038",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt15789038",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "Slumdog Millionaire",
         "imdb_id": "tt1010048",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1010048",
