@@ -1,6 +1,41 @@
 [
   {
         "type": "movie",
+        "title": "Up",
+        "imdb_id": "tt1049413",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1049413",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "3 Idiots",
+        "imdb_id": "tt1187043",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt1187043",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Braveheart",
+        "imdb_id": "tt0112573",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0112573",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Gladiator",
+        "imdb_id": "tt0172495",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt0172495",
+        "release": "new"
+    },
+  {
+        "type": "movie",
+        "title": "Rebel Moon: Part One - A Child of Fire",
+        "imdb_id": "tt14998742",
+        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt14998742",
+        "release": "new"
+    },
+  {
+        "type": "movie",
         "title": "Avengers: Endgame",
         "imdb_id": "tt4154796",
         "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt4154796",
