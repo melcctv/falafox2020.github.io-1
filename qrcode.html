@@ -7,6 +7,10 @@
     <title>JuanFi QR Scanner</title>
     <script src="html5-qrcode.min.js"></script>
     <style>
+        *{
+            font-family: Arial;
+            font-size: large;
+        }
         main {
             display: flex;
             justify-content: center;
@@ -43,8 +47,8 @@
     function success(result) {
 
         document.getElementById('result').innerHTML = `
-        <h2>Success!</h2>
-        <p><p><a href="http://10.0.0.1/login?username=${result}">Activate voucher</a></p></p>
+        <h2>${result}</h2>
+        <h3>USER KEY</h3>
         `;
 
         scanner.clear();
