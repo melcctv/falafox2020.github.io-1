@@ -1,1 +1,280 @@
-const _0x16e0f9=_0xbe51;(function(_0x239b2c,_0x50110e){const _0x4f82ed=_0xbe51,_0x40d563=_0x239b2c();while(!![]){try{const _0x42b817=-parseInt(_0x4f82ed(0x1e9))/0x1*(-parseInt(_0x4f82ed(0x248))/0x2)+parseInt(_0x4f82ed(0x22b))/0x3+-parseInt(_0x4f82ed(0x1ce))/0x4*(-parseInt(_0x4f82ed(0x1f4))/0x5)+-parseInt(_0x4f82ed(0x1e0))/0x6+-parseInt(_0x4f82ed(0x235))/0x7+-parseInt(_0x4f82ed(0x208))/0x8+parseInt(_0x4f82ed(0x23a))/0x9*(parseInt(_0x4f82ed(0x20d))/0xa);if(_0x42b817===_0x50110e)break;else _0x40d563['push'](_0x40d563['shift']());}catch(_0x4f4391){_0x40d563['push'](_0x40d563['shift']());}}}(_0x34e1,0x41aaa));import{Options,BaseURL,NowPlayingEndpoint,TrendingEndpoint,TopratedEndpoint,PopularEndpoint,Poster,QS,AddElement,convertMinsToHrsMins,convertYear,convertWholeNumber,IconCalendar,IconClock,IconStar,fallbackMoviePoster}from'./api/movieapi.js';const TrendingDiv=AddElement(_0x16e0f9(0x1d8));TrendingDiv[_0x16e0f9(0x211)]=_0x16e0f9(0x1f7)+'l\x22>Trending</h3>\x0a<di'+_0x16e0f9(0x21d)+_0x16e0f9(0x206)+_0x16e0f9(0x1d7),QS('#root')['appendChild'](TrendingDiv);const NowplayingDiv=AddElement(_0x16e0f9(0x1d8));NowplayingDiv['innerHTML']=_0x16e0f9(0x1f7)+_0x16e0f9(0x239)+_0x16e0f9(0x231)+'ing\x22\x20class=\x22movie-gr'+'oup\x22></div>\x0a',QS(_0x16e0f9(0x1ec))['appendChild'](NowplayingDiv);function _0x34e1(){const _0x981ce0=['class=\x22movie-stats-g','\x20<div><p>','title','click','104832cvucVE','\x22movie-group\x22></div>','json','pe=\x22button\x22\x20class=\x22b','rc.to/embed/movie/','3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','h3>\x0a<div\x20id=\x22nowplay','</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fullscreen></iframe>','\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>','1536717ViaZkU','play-movie-modal','body','on\x22\x20id=\x22closePlayMov','l\x22>Users\x20top\x20picks</','9HrUZGF','#closeModal','\x20\x20\x20<div\x20class=\x22movie','oseModal\x22>Close</but','movie/','\x20|\x20','runtime','btn\x20primary\x22>Close</','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','me\x20src=\x22https://vids','ypted-media;\x20gyrosco','style','s-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','15862nNOrCd','\x20<h4>Suggestions</h4','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20','playMovieBtn\x22>Watch\x20','#trending','catch','railerModal\x22\x20class=\x22','s=\x22btn\x20primary\x22\x20id=\x22','now</button>\x0a\x20\x20\x20\x20\x20\x20\x20','name','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<iframe\x20s','iv\x20id=\x22toprated\x22\x20cla','modal','\x22></iframe>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','length','genres','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','12PXvlzM','-details-text\x22>\x0a\x20\x20\x20\x20','\x20primary\x22>Close</but','key','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class','ton>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','release_date','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v>\x0a','div','#TrailerModal','pe;\x20picture-in-pictu','\x20class=\x22movie-detail','removeChild','lass=\x22sypnosis\x22>','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ifra','re;\x20web-share\x22\x20allow','2195946TOYYvJ','Trailer','=\x22movie-stats\x22>\x0a\x20\x20\x20\x20','addEventListener','=\x22movie-details\x22>\x0a\x0a\x20','\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','class=\x22movie-group\x22>','ss=\x22movie-group\x22></d','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','61BeoYQQ','\x20\x20<button\x20type=\x22butt','/videos?language=en-','#root','iv>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20class=\x22posters\x22\x20/>','=\x22button\x22\x20id=\x22closeT','ss=\x22movie-title\x22>','\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20<div\x20class=\x22moda','https://api.themovie','451180HBAeBa','overview','rometer;\x20autoplay;\x20c','\x0a<h3\x20class=\x22div-labe','n=http://youtube.com','hidden','type','iv>\x0a','vote_average','roup\x22>','/recommendations?lan','#closeTrailerModal','appendChild','log','similar-div','then','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<butto','\x20\x20\x20','s=\x22movie-group\x22></di','\x20Official\x20Trailer</h','144560ZEOpLG','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','poster_path','className','\x20id=\x22popular\x22\x20class=','831190KbGzVv','.modal','\x20class=\x22selected-pos','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','innerHTML','db.org/3/movie/','l\x22>Top\x20rated</h3>\x0a<d','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<sma','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rc=\x22https://www.yout','TrailerModal','div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20','results','tn\x20secondary\x22\x20id=\x22cl','v\x20id=\x22trending\x22\x20clas','es\x22>Genres:\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20cla','#closePlayMovierModa','auto','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20ty','#similar','ube.com/embed/','overflow','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20'];_0x34e1=function(){return _0x981ce0;};return _0x34e1();}const TopratedDiv=AddElement(_0x16e0f9(0x1d8));TopratedDiv['innerHTML']=_0x16e0f9(0x1f7)+_0x16e0f9(0x213)+_0x16e0f9(0x1c8)+_0x16e0f9(0x1e7)+_0x16e0f9(0x1fb),QS(_0x16e0f9(0x1ec))[_0x16e0f9(0x200)](TopratedDiv);const PopularDiv=AddElement('div');PopularDiv['innerHTML']=_0x16e0f9(0x1f7)+'l\x22>Popular</h3>\x0a<div'+_0x16e0f9(0x20c)+_0x16e0f9(0x22c)+'\x0a',QS('#root')[_0x16e0f9(0x200)](PopularDiv);async function FetchTrending(){const _0x26afef=_0x16e0f9,_0x3b8f59=await fetch(TrendingEndpoint,Options),_0x185a02=_0x3b8f59[_0x26afef(0x22d)]();return _0x185a02;}FetchTrending()[_0x16e0f9(0x203)](_0xe40c89=>_0xe40c89[_0x16e0f9(0x21b)])['then'](_0xf6d267=>{const _0xfd71b7=_0x16e0f9;for(let _0x1a0b4f=0x0;_0x1a0b4f<_0xf6d267['length'];_0x1a0b4f++){RenderMovieCover(_0xf6d267[_0x1a0b4f]['id'],Poster+_0xf6d267[_0x1a0b4f]['poster_path'],_0xfd71b7(0x24c));}})[_0x16e0f9(0x24d)](_0x1c3426=>console[_0x16e0f9(0x201)](_0x1c3426));async function FetchNowplaying(){const _0x295059=_0x16e0f9,_0x22c45d=await fetch(NowPlayingEndpoint,Options),_0x133889=_0x22c45d[_0x295059(0x22d)]();return _0x133889;}FetchNowplaying()[_0x16e0f9(0x203)](_0x4c00b2=>_0x4c00b2['results'])[_0x16e0f9(0x203)](_0x2b13a8=>{const _0x14322f=_0x16e0f9;for(let _0x3da070=0x0;_0x3da070<_0x2b13a8[_0x14322f(0x1cb)];_0x3da070++){RenderMovieCover(_0x2b13a8[_0x3da070]['id'],Poster+_0x2b13a8[_0x3da070][_0x14322f(0x20a)],'#nowplaying');}})[_0x16e0f9(0x24d)](_0xc64e8f=>console[_0x16e0f9(0x201)](_0xc64e8f));async function FetchToprated(){const _0x20ae43=_0x16e0f9,_0x1f0ef4=await fetch(TopratedEndpoint,Options),_0x40d0c4=_0x1f0ef4[_0x20ae43(0x22d)]();return _0x40d0c4;}FetchToprated()[_0x16e0f9(0x203)](_0x5c82dd=>_0x5c82dd[_0x16e0f9(0x21b)])[_0x16e0f9(0x203)](_0x54ce28=>{const _0x57ab18=_0x16e0f9;for(let _0xdf4fa0=0x0;_0xdf4fa0<_0x54ce28[_0x57ab18(0x1cb)];_0xdf4fa0++){RenderMovieCover(_0x54ce28[_0xdf4fa0]['id'],Poster+_0x54ce28[_0xdf4fa0][_0x57ab18(0x20a)],'#toprated');}})[_0x16e0f9(0x24d)](_0x18e9f7=>console[_0x16e0f9(0x201)](_0x18e9f7));async function FetchPopular(){const _0x319a73=await fetch(PopularEndpoint,Options),_0x4d6e60=_0x319a73['json']();return _0x4d6e60;}FetchPopular()[_0x16e0f9(0x203)](_0x5e7357=>_0x5e7357['results'])[_0x16e0f9(0x203)](_0x25b377=>{const _0x217fa1=_0x16e0f9;for(let _0x429a10=0x0;_0x429a10<_0x25b377[_0x217fa1(0x1cb)];_0x429a10++){RenderMovieCover(_0x25b377[_0x429a10]['id'],Poster+_0x25b377[_0x429a10][_0x217fa1(0x20a)],'#popular');}})[_0x16e0f9(0x24d)](_0x474fae=>console[_0x16e0f9(0x201)](_0x474fae));function RenderMovieCover(_0x3fad2d,_0x11c7bc,_0x9371df){const _0x3edb71=_0x16e0f9,_0x52f3f0=AddElement(_0x3edb71(0x1d8));_0x52f3f0[_0x3edb71(0x211)]='<img\x20src=\x22'+_0x11c7bc+_0x3edb71(0x1ee),_0x52f3f0['addEventListener'](_0x3edb71(0x22a),()=>{const _0xc3ae63=_0x3edb71;QS(_0xc3ae63(0x237))['style']['overflow']=_0xc3ae63(0x1f9),FetchSelectedMovie(_0x3fad2d)[_0xc3ae63(0x203)](_0x3e0e30=>{const _0x2b6d0a=_0xc3ae63;QS(_0x2b6d0a(0x20e))&&QS('body')[_0x2b6d0a(0x1dc)](QS(_0x2b6d0a(0x237))['lastChild']);const _0x243aea=AddElement(_0x2b6d0a(0x1d8));_0x243aea[_0x2b6d0a(0x20b)]='modal',_0x243aea[_0x2b6d0a(0x211)]=_0x2b6d0a(0x226)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class'+_0x2b6d0a(0x1e4)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x2b6d0a(0x219)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src='+(Poster+_0x3e0e30[_0x2b6d0a(0x20a)])+(_0x2b6d0a(0x20f)+'ter\x22\x20/><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b6d0a(0x214)+'ll\x20class=\x22movie-genr'+_0x2b6d0a(0x21e))+_0x3e0e30[_0x2b6d0a(0x1cc)][0x0][_0x2b6d0a(0x1c6)]+',\x20'+_0x3e0e30[_0x2b6d0a(0x1cc)][0x1]['name']+(_0x2b6d0a(0x232)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20'+_0x2b6d0a(0x242)+_0x2b6d0a(0x1db)+_0x2b6d0a(0x247)+_0x2b6d0a(0x21f)+_0x2b6d0a(0x1f0))+_0x3e0e30[_0x2b6d0a(0x229)]+('</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b6d0a(0x1d3)+_0x2b6d0a(0x1e2)+_0x2b6d0a(0x216)+'\x20\x20\x20\x20<div\x20class=\x22movi'+'e-stats-group\x22>')+IconCalendar+convertYear(_0x3e0e30['release_date'])+(_0x2b6d0a(0x209)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20'+_0x2b6d0a(0x227)+_0x2b6d0a(0x1fd))+IconClock+convertMinsToHrsMins(_0x3e0e30[_0x2b6d0a(0x240)])+(_0x2b6d0a(0x209)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20'+'class=\x22movie-stats-g'+_0x2b6d0a(0x1fd))+IconStar+convertWholeNumber(_0x3e0e30[_0x2b6d0a(0x1fc)])+('</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b6d0a(0x24a)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</d'+_0x2b6d0a(0x1ed)+_0x2b6d0a(0x209)+_0x2b6d0a(0x23c)+_0x2b6d0a(0x1cf)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20c'+_0x2b6d0a(0x1dd))+_0x3e0e30[_0x2b6d0a(0x1f5)]+(_0x2b6d0a(0x1d6)+_0x2b6d0a(0x1f1)+_0x2b6d0a(0x1f2)+'l-btn-group\x22>\x0a\x20\x20\x20\x20\x20\x20'+_0x2b6d0a(0x204)+'n\x20type=\x22button\x22\x20clas'+_0x2b6d0a(0x1c4)+_0x2b6d0a(0x24b)+_0x2b6d0a(0x1c5)+_0x2b6d0a(0x1d2)+'\x20type=\x22button\x22\x20class'+'=\x22btn\x20secondary\x22\x20id='+'\x22trailerBtn\x22>Trailer'+_0x2b6d0a(0x215)+_0x2b6d0a(0x222)+_0x2b6d0a(0x22e)+_0x2b6d0a(0x21c)+_0x2b6d0a(0x23d)+'ton>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b6d0a(0x1e5)+'\x20'),QS(_0x2b6d0a(0x237))[_0x2b6d0a(0x200)](_0x243aea);const _0x21f6cb=QS('#playMovieBtn');_0x21f6cb[_0x2b6d0a(0x1e3)](_0x2b6d0a(0x22a),()=>{const _0x87a80=_0x2b6d0a,_0x47705e=AddElement(_0x87a80(0x1d8));_0x47705e[_0x87a80(0x20b)]=_0x87a80(0x1c9),_0x47705e['id']=_0x87a80(0x236),_0x47705e['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x87a80(0x228)+_0x3e0e30[_0x87a80(0x229)]+'</p>\x20<small>'+convertYear(_0x3e0e30[_0x87a80(0x1d5)])+_0x87a80(0x23f)+convertMinsToHrsMins(_0x3e0e30[_0x87a80(0x240)])+_0x87a80(0x23f)+_0x3e0e30[_0x87a80(0x1cc)][0x0][_0x87a80(0x1c6)]+',\x20'+_0x3e0e30['genres'][0x1][_0x87a80(0x1c6)]+('</small></div>\x0a\x20\x20\x20\x20\x20'+_0x87a80(0x1de)+_0x87a80(0x244)+_0x87a80(0x22f))+_0x3fad2d+(_0x87a80(0x1ca)+_0x87a80(0x21a)+_0x87a80(0x216)+_0x87a80(0x1ea)+_0x87a80(0x238)+'ierModal\x22\x20class=\x22btn'+_0x87a80(0x1d0)+_0x87a80(0x1d4)+'\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20'),QS(_0x87a80(0x237))[_0x87a80(0x200)](_0x47705e);const _0x11ac47=QS(_0x87a80(0x220)+'l');_0x11ac47[_0x87a80(0x1e3)](_0x87a80(0x22a),()=>{const _0x36fa80=_0x87a80;QS('.modal')&&QS(_0x36fa80(0x237))[_0x36fa80(0x1dc)](QS(_0x36fa80(0x237))['lastChild']);});});const _0x3e4877=QS('#trailerBtn');_0x3e4877[_0x2b6d0a(0x1e3)](_0x2b6d0a(0x22a),()=>{const _0x2f5a92=_0x2b6d0a;FetchTrailer(_0x3fad2d)[_0x2f5a92(0x203)](_0x2a1063=>_0x2a1063[_0x2f5a92(0x21b)])[_0x2f5a92(0x203)](_0x437585=>{const _0x129408=_0x2f5a92;if(_0x437585['length']>0x0){const _0x34cb2f=AddElement(_0x129408(0x1d8));_0x34cb2f['id']=_0x129408(0x218),_0x34cb2f[_0x129408(0x20b)]=_0x129408(0x1c9),QS(_0x129408(0x237))[_0x129408(0x200)](_0x34cb2f);}for(let _0xaa55cb=0x0;_0xaa55cb<_0x437585[_0x129408(0x1cb)];_0xaa55cb++){if(_0x437585[_0xaa55cb][_0x129408(0x1fa)]==_0x129408(0x1e1)){const _0x33b90f=AddElement(_0x129408(0x1d8));_0x33b90f[_0x129408(0x20b)]='trailer-video',_0x33b90f[_0x129408(0x211)]=_0x129408(0x243)+_0x129408(0x234)+_0x3e0e30[_0x129408(0x229)]+(_0x129408(0x207)+_0x129408(0x230)+_0x129408(0x1c7)+_0x129408(0x217)+_0x129408(0x224))+_0x437585[_0xaa55cb][_0x129408(0x1d1)]+('?enablejsapi=1&origi'+_0x129408(0x1f8)+'\x22\x20title=\x22YouTube\x20vid'+'eo\x20player\x22\x20framebord'+'er=\x220\x22\x20allow=\x22accele'+_0x129408(0x1f6)+'lipboard-write;\x20encr'+_0x129408(0x245)+_0x129408(0x1da)+_0x129408(0x1df)+_0x129408(0x233)+_0x129408(0x210)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20'+_0x129408(0x216)+'\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type'+_0x129408(0x1ef)+_0x129408(0x24e)+_0x129408(0x241)+'button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</di'+'v>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x129408(0x1e8)),QS(_0x129408(0x1d9))[_0x129408(0x200)](_0x33b90f);const _0x5acdc8=QS(_0x129408(0x1ff));_0x5acdc8[_0x129408(0x1e3)](_0x129408(0x22a),()=>{const _0x1799fd=_0x129408;QS('.modal')&&QS(_0x1799fd(0x237))[_0x1799fd(0x1dc)](QS('body')['lastChild']);});break;}}});});const _0x28998d=QS(_0x2b6d0a(0x23b));_0x28998d[_0x2b6d0a(0x1e3)](_0x2b6d0a(0x22a),()=>{const _0x7a4867=_0x2b6d0a;QS('.modal')&&(QS(_0x7a4867(0x237))[_0x7a4867(0x1dc)](QS('body')['lastChild']),QS(_0x7a4867(0x237))[_0x7a4867(0x246)][_0x7a4867(0x225)]=_0x7a4867(0x221));}),FetchRecommendationMovie(_0x3fad2d)[_0x2b6d0a(0x203)](_0x391742=>_0x391742[_0x2b6d0a(0x21b)])[_0x2b6d0a(0x203)](_0x59ebf8=>{const _0x2d334d=_0x2b6d0a,_0x113b66=AddElement(_0x2d334d(0x1d8));_0x113b66[_0x2d334d(0x20b)]=_0x2d334d(0x202),_0x113b66['innerHTML']=_0x2d334d(0x243)+_0x2d334d(0x249)+_0x2d334d(0x1cd)+'\x20\x20<div\x20id=\x22similar\x22\x20'+_0x2d334d(0x1e6)+_0x2d334d(0x209)+_0x2d334d(0x205);if(_0x59ebf8[_0x2d334d(0x1cb)]>0x0)for(let _0xe75891=0x0;_0xe75891<_0x59ebf8[_0x2d334d(0x1cb)];_0xe75891++){_0x59ebf8[_0x2d334d(0x20a)]!=''?setTimeout(()=>{const _0x3eff6d=_0x2d334d;RenderMovieCover(_0x59ebf8[_0xe75891]['id'],Poster+_0x59ebf8[_0xe75891][_0x3eff6d(0x20a)],'#similar');},0x1f4):setTimeout(()=>{RenderMovieCover(_0x59ebf8[_0xe75891]['id'],fallbackMoviePoster,'#similar');},0x1f4);}else setTimeout(()=>{const _0x6a2886=_0x2d334d;RenderMovieCover(0x0,fallbackMoviePoster,_0x6a2886(0x223));},0x1f4);QS(_0x2d334d(0x20e))['appendChild'](_0x113b66);})[_0x2b6d0a(0x24d)](_0x4e54b4=>console[_0x2b6d0a(0x201)](_0x4e54b4));})[_0xc3ae63(0x24d)](_0x397569=>console['log'](_0x397569));}),QS(_0x9371df)[_0x3edb71(0x200)](_0x52f3f0);}async function FetchSelectedMovie(_0x1e7dd9){const _0xc81186=_0x16e0f9,_0x581ba5=await fetch(BaseURL+'movie/'+_0x1e7dd9+'?language=en-US',Options),_0x378738=_0x581ba5[_0xc81186(0x22d)]();return _0x378738;}function _0xbe51(_0x31f054,_0x302a2a){const _0x34e1a7=_0x34e1();return _0xbe51=function(_0xbe51bb,_0x5ebe2c){_0xbe51bb=_0xbe51bb-0x1c4;let _0x3d1229=_0x34e1a7[_0xbe51bb];return _0x3d1229;},_0xbe51(_0x31f054,_0x302a2a);}async function FetchRecommendationMovie(_0x2bebf4){const _0x2ed69b=_0x16e0f9,_0x48e5ea=await fetch(BaseURL+_0x2ed69b(0x23e)+_0x2bebf4+(_0x2ed69b(0x1fe)+'guage=en-US&page=1'),Options),_0x38450a=_0x48e5ea['json']();return _0x38450a;}async function FetchTrailer(_0x11f4d3){const _0x3ed851=_0x16e0f9,_0x23bd53=await fetch(_0x3ed851(0x1f3)+_0x3ed851(0x212)+_0x11f4d3+(_0x3ed851(0x1eb)+'US'),Options),_0x5d69a5=_0x23bd53[_0x3ed851(0x22d)]();return _0x5d69a5;}
+import { Options, BaseURL, NowPlayingEndpoint, TrendingEndpoint, TopratedEndpoint, PopularEndpoint, Poster, QS, AddElement, convertMinsToHrsMins, convertYear, convertWholeNumber, IconCalendar, IconClock, IconStar, fallbackMoviePoster } from './api/movieapi.js';
+
+// Movie divs
+const TrendingDiv = AddElement('div');
+TrendingDiv.innerHTML = `
+<h3 class="div-label">Trending</h3>
+<div id="trending" class="movie-group"></div>
+`;
+QS('#root').appendChild(TrendingDiv);
+
+const NowplayingDiv = AddElement('div');
+NowplayingDiv.innerHTML = `
+<h3 class="div-label">Users top picks</h3>
+<div id="nowplaying" class="movie-group"></div>
+`;
+QS('#root').appendChild(NowplayingDiv);
+
+const TopratedDiv = AddElement('div');
+TopratedDiv.innerHTML = `
+<h3 class="div-label">Top rated</h3>
+<div id="toprated" class="movie-group"></div>
+`;
+QS('#root').appendChild(TopratedDiv);
+
+const PopularDiv = AddElement('div');
+PopularDiv.innerHTML = `
+<h3 class="div-label">Popular</h3>
+<div id="popular" class="movie-group"></div>
+`;
+QS('#root').appendChild(PopularDiv);
+
+// Fetch Trending
+async function FetchTrending(){
+    const response = await fetch(TrendingEndpoint, Options);
+    const data = response.json();
+    return data;
+}
+FetchTrending()
+.then(data => data.results)
+.then(movie => {
+    for(let i=0;i<movie.length;i++){
+        //console.log(movie[i].title)
+        RenderMovieCover(movie[i].id, Poster+movie[i].poster_path, '#trending');
+    }
+})
+.catch(error => console.log(error))
+
+// Fetch Now playing
+async function FetchNowplaying(){
+    const response = await fetch(NowPlayingEndpoint, Options);
+    const data = response.json();
+    return data;
+}
+FetchNowplaying()
+.then(data => data.results)
+.then(movie => {
+    for(let i=0;i<movie.length;i++){
+        //console.log(movie[i].title)
+        RenderMovieCover(movie[i].id, Poster+movie[i].poster_path, '#nowplaying');
+    }
+})
+.catch(error => console.log(error))
+
+// Fetch Top rated
+async function FetchToprated(){
+    const response = await fetch(TopratedEndpoint, Options);
+    const data = response.json();
+    return data;
+}
+FetchToprated()
+.then(data => data.results)
+.then(movie => {
+    for(let i=0;i<movie.length;i++){
+        //console.log(movie[i].title)
+        RenderMovieCover(movie[i].id, Poster+movie[i].poster_path, '#toprated');
+    }
+})
+.catch(error => console.log(error))
+
+// Fetch Popular
+async function FetchPopular(){
+    const response = await fetch(PopularEndpoint, Options);
+    const data = response.json();
+    return data;
+}
+FetchPopular()
+.then(data => data.results)
+.then(movie => {
+    for(let i=0;i<movie.length;i++){
+        //console.log(movie[i].title)
+        RenderMovieCover(movie[i].id, Poster+movie[i].poster_path, '#popular');
+    }
+})
+.catch(error => console.log(error))
+
+
+// Dynamic fetch 
+function RenderMovieCover(id, poster, position){
+    //console.log(id + ' : ' + poster + ' : ' + position)
+    const MoviePoster = AddElement('div');
+    MoviePoster.innerHTML = `<img src="${poster}" class="posters" />`;
+    MoviePoster.addEventListener('click', () => {
+
+        QS('body').style.overflow = 'hidden';
+        // Fetch selected movie
+        FetchSelectedMovie(id)
+        .then(data => {
+            //console.log(data);
+
+            if(QS('.modal')){
+                QS('body').removeChild(QS('body').lastChild)
+            }
+            const MovieModal = AddElement('div');
+            MovieModal.className = 'modal';
+            MovieModal.innerHTML = `
+            
+                <div class="movie-details">
+
+                    <div>
+                        <img src=${Poster+data.poster_path} class="selected-poster" /><br>
+                        <small class="movie-genres">Genres: ${data.genres[0].name}, ${data.genres[1].name}</small>
+                    </div>
+                    <div class="movie-details-text">
+                        <h3 class="movie-title">${data.title}</h3>
+                        <div class="movie-stats">
+                            <div class="movie-stats-group">${IconCalendar}${convertYear(data.release_date)}</div>
+                            <div class="movie-stats-group">${IconClock}${convertMinsToHrsMins(data.runtime)}</div>
+                            <div class="movie-stats-group">${IconStar}${convertWholeNumber(data.vote_average)}</div>
+                        <div>
+                    </div>
+                </div>
+                <div class="movie-details-text">
+                    <p class="sypnosis">${data.overview}</p>
+                </div>
+                <div class="modal-btn-group">
+                    <button type="button" class="btn primary" id="playMovieBtn">Watch now</button>
+                    <button type="button" class="btn secondary" id="trailerBtn">Trailer</button>
+                    <button type="button" class="btn secondary" id="closeModal">Close</button>
+                </div>
+
+            `;
+            QS('body').appendChild(MovieModal);
+
+            const PlayBtn = QS('#playMovieBtn');
+            PlayBtn.addEventListener('click', () => {
+                const PlayMovieModal = AddElement('div');
+                PlayMovieModal.className = 'modal';
+                PlayMovieModal.id = 'play-movie-modal';
+                PlayMovieModal.innerHTML = `
+                    <div><p>${data.title}</p> <small>${convertYear(data.release_date)} | ${convertMinsToHrsMins(data.runtime)} | ${data.genres[0].name}, ${data.genres[1].name}</small></div>
+                    <iframe src="https://vidsrc.to/embed/movie/${id}" frameborder="0" allow="accelerometer; autoplay; allowfullscreen></iframe>
+                    <div>
+                        <button type="button" id="closePlayMovierModal" class="btn primary">Close</button>
+                    </div>
+                `;
+                QS('body').appendChild(PlayMovieModal);
+
+                const PlaymovieCloseBtn = QS('#closePlayMovierModal');
+                PlaymovieCloseBtn.addEventListener('click', () => {
+                    if(QS('.modal')){
+                        QS('body').removeChild(QS('body').lastChild);
+
+                    }
+                });
+            });
+            
+
+            const TrailerBtn = QS('#trailerBtn');
+            TrailerBtn.addEventListener('click', () => {
+                FetchTrailer(id)
+                .then(data => data.results)
+                .then(trailer => {
+                    //console.log(trailer)
+                    if(trailer.length>0){
+                        const TrailerModal = AddElement('div');
+                        TrailerModal.id = 'TrailerModal';
+                        TrailerModal.className = 'modal';
+                        QS('body').appendChild(TrailerModal);
+                    }
+                    for(let i=0;i<trailer.length;i++){
+                        
+                        if(trailer[i].type == 'Trailer'){
+                            //console.log(trailer[i].key)
+                            const iframe = AddElement('div');
+                            iframe.className = 'trailer-video';
+                            iframe.innerHTML = `
+                            <h3>${data.title} Official Trailer</h3>
+                            <iframe src="https://www.youtube.com/embed/${trailer[i].key}?enablejsapi=1&origin=http://youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            <div>
+                                <button type="button" id="closeTrailerModal" class="btn primary">Close</button>
+                            </div>
+                            `;
+
+                            QS('#TrailerModal').appendChild(iframe);
+
+                            const TrailerCloseBtn = QS('#closeTrailerModal');
+                            TrailerCloseBtn.addEventListener('click', () => {
+                                if(QS('.modal')){
+                                    QS('body').removeChild(QS('body').lastChild);
+
+                                }
+                            });
+
+                            break;
+                        }
+                    }
+                })
+            });
+
+            const CloseBtn = QS('#closeModal');
+            CloseBtn.addEventListener('click', () => {
+                if(QS('.modal')){
+                    QS('body').removeChild(QS('body').lastChild);
+                    QS('body').style.overflow = 'auto';
+                }
+            });
+
+            // Fetch suggestions
+            FetchRecommendationMovie(id)
+            .then(data => data.results)
+            .then(movie => {
+                //console.log(movie)
+                const SimilarDiv = AddElement('div');
+                SimilarDiv.className = 'similar-div';
+                SimilarDiv.innerHTML = `
+                    <h4>Suggestions</h4>
+                    <div id="similar" class="movie-group"></div>
+                `;
+
+                if(movie.length > 0){
+                    for(let i=0;i<movie.length;i++){
+                        //console.log(movie[i].title)
+                        if(movie.poster_path!=''){
+                            setTimeout(()=>{
+                                RenderMovieCover(movie[i].id, Poster+movie[i].poster_path, '#similar');
+                            },500)
+                        } else {
+                            setTimeout(()=>{
+                                RenderMovieCover(movie[i].id, fallbackMoviePoster, '#similar');
+                            },500)   
+                        }
+                    }
+                } else {
+                    setTimeout(()=>{
+                        RenderMovieCover(0, fallbackMoviePoster, '#similar');
+                    },500)
+                }
+
+                QS('.modal').appendChild(SimilarDiv);
+            })
+            .catch(error => console.log(error))
+
+        })
+        .catch(error => console.log(error))
+
+    });
+    QS(position).appendChild(MoviePoster)
+}
+
+// Fetch selected movie
+async function FetchSelectedMovie(id){
+    const response = await fetch(`${BaseURL}movie/${id}?language=en-US`, Options);
+    const data = response.json();
+    return data;
+}
+
+// Fetch similar movies
+async function FetchRecommendationMovie(id){
+    const response = await fetch(`${BaseURL}movie/${id}/recommendations?language=en-US&page=1`, Options);
+    const data = response.json();
+    return data;
+}
+
+// Fetch trailer video
+async function FetchTrailer(id){
+    const response = await fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=en-US`, Options);
+    const data = response.json();
+    return data;
+}
