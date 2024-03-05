@@ -12,13 +12,27 @@
     --SecText: #ccc;
     --MainBtn: #094e82;
     --SecBtn: #9218ad;
+    --HeaderMain: #16191c;
 }
 body {
     background-color: var(--MaingBG);
 }
+.header {
+    background-color: rgba(0,0,0,0.7);
+    color: var(--MainText);
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #root {
     padding: 1em;
-    color: var(--MainText)
+    color: var(--MainText);
+    margin-top: 60px;
 }
 .div-label {
     font-size: large;
@@ -30,10 +44,12 @@ body {
 .movie-group {
     width: 100%;
     display: flex;
+    align-items: center;
     overflow-x: auto;
     white-space: nowrap;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 .posters, .selected-poster {
     width: 135px;
@@ -151,6 +167,11 @@ body {
     border: none;
 }
 @media screen and (min-width: 600px) {
+    #root {
+        padding: 1em;
+        color: var(--MainText);
+        margin-top: 90px;
+    }
     .posters, .selected-poster{
         width: 200px;
         height: 310px;
@@ -203,4 +224,27 @@ body {
         opacity: .8;
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #282931;
+    border-radius: 6px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--MainBtn);
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--MainBtn);
+  }
 
