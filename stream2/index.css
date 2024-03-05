@@ -72,7 +72,6 @@ body {
     background-color: var(--MaingBG);
     color: var(--MainText);
     overflow-y: auto;
-    overflow-x: hidden;
 }
 .movie-title {
     display: -webkit-box;
