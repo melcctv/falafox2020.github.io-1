@@ -5,11 +5,6 @@
         "link": "<iframe id=\"iptvplayer\" src=\"https://www.youtube.com/embed/X0WkucDBG7w?enablejsapi=1&origin=http://youtube.com&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
     },
     {
-        "name": "ANC",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/1920px-ABS-CBN_News_Channel_%282015%29.svg.png",
-        "link": "<iframe id=\"iptvplayer\" src=\"https://www.youtube.com/embed/J3S_i-nbGEs?si=Wf8FiQS1uWVSfCTN\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-    },
-    {
         "name": "GMA",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/GMA_Network_logo.png",
         "link": "<iframe id=\"iptvplayer\" src=\"https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
