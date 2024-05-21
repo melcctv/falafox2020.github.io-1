@@ -21,7 +21,7 @@
     },
     {
         "name": "TV 5",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_%28Philippines%29_logo.svg/1024px-TV5_%28Philippines%29_logo.svg.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/TV5_HD_2024.svg",
         "link": "<iframe id=\"iptvplayer\" src=\"https://www.youtube.com/embed/live_stream?channel=UCiFx0kZFjR29u0uJxTSq5MQ&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
     }
 ]
