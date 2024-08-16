@@ -1,9 +1,9 @@
 [
   {
         "type": "movie",
-        "title": "Carter",
+        "title": "CNN",
         "imdb_id": "tt21237030",
-        "embed_url_imdb": "https:\\/\\/vidsrc.to\\/embed\\/movie\\/tt21237030",
+        "embed_url_imdb": "https://iptv.notflix.in/live-tv/tap-tv.html",
         "release": "new"
     },
   {
